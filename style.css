@@ -22,6 +22,8 @@ body {
 }
 
 a { color: inherit; }
+.inline-link { color: var(--blue); font-weight: 680; text-underline-offset: 3px; }
+.inline-link:hover, .inline-link:focus-visible { color: var(--blue-dark); }
 .container { width: min(var(--max), calc(100% - 48px)); margin: 0 auto; }
 .narrow { max-width: 810px; }
 .skip-link { position: fixed; left: 12px; top: -60px; padding: 10px 14px; background: var(--ink); color: white; z-index: 100; }
