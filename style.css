@@ -52,8 +52,9 @@ h3 { margin: 0 0 12px; font-size: 1.25rem; }
 .portrait-wrap { margin: 0; justify-self: end; }
 .portrait {
   display: block;
-  width: 240px;
-  max-width: 100%;
+  width: 160px !important;
+  max-width: 160px !important;
+  height: 200px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
@@ -98,7 +99,11 @@ footer { padding: 26px 0; color: var(--ink-soft); background: var(--soft); font-
   .hero { padding: 58px 0 62px; }
   .hero-grid { grid-template-columns: 1fr; gap: 42px; }
   .portrait-wrap { justify-self: start; }
-  .portrait { width: 180px; }
+  .portrait {
+    width: 120px !important;
+    max-width: 120px !important;
+    height: 150px;
+  }
   .research-grid { grid-template-columns: 1fr; }
   .research-card { min-height: auto; }
   .card-number { margin-bottom: 28px; }
